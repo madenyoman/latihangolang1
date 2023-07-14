@@ -1,8 +1,8 @@
 package main
 
-import  "tugas-9/library"
+import "latihangolang1/library"
 
 func main() {
 
-	library.result()
+	library.Results()
 }

@@ -65,7 +65,7 @@ func (b balok) luasPermukaan() float64 {
 	return float64(2*(b.panjang*b.lebar) + 2*(b.panjang*b.tinggi) + 2*(b.lebar*b.tinggi))
 }
 
-func results() {
+func Results() {
 	fmt.Println("----- SOAL 1-----")
 	segitiga := segitigaSamaSisi{
 		alas:   10,
